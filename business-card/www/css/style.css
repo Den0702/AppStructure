@@ -1,0 +1,41 @@
+h1 {
+  font-size: 40px;
+  font-family: "Monaco", "Courier", monospace;
+  color: #618ad2;
+  width:100%;
+  text-align: center;
+}
+
+body {
+	background-color:yellow
+}
+
+p {
+	font-family: verdana;
+	font-size: 30px;
+}
+
+a {
+	font-family: verdana;
+	font-size: 30px;
+	width:100%;
+  	text-align: center;
+}
+
+p{ 
+	border-style: solid; 
+	border-bottom-color: #ff0000
+}
+#pic {
+      position: absolute;
+      border-radius: 6px;
+      transform: translateX(-15px);
+      transition: .25s;
+      opacity: 0;
+      min-width: 30px;
+    }
+    #pic.pic_visible {
+      transform: translateX(10px);
+      opacity: 1;
+    }
+   
